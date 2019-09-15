@@ -4,7 +4,6 @@ import MuiExpansionPanel from '@material-ui/core/ExpansionPanel';
 import MuiExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import MuiExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import Typography from '@material-ui/core/Typography';
-import rentalData from '../data/bikerentals.json';
 
 const ExpansionPanel = withStyles({
   root: {
@@ -58,7 +57,7 @@ export default function CustomizedExpansionPanels() {
     setExpanded(newExpanded ? panel : false);
   };
 
-  
+
   return (
     <div>
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
