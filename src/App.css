@@ -35,3 +35,8 @@
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
+
+.rentals {
+  display: flex;
+  flex-direction: row;
+}
