@@ -8,6 +8,7 @@
   margin-right: 40vw;
 }
 
+/** landing page styling **/
 .App {
   display: flex;
   flex-direction: column;
@@ -27,16 +28,4 @@
   background-image: url(./media/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg);
   background-size: cover;
   border-top: 5px solid red;
-}
-
-.accordion {
-  display: flex;
-  width: 80vw;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-}
-
-.rentals {
-  display: flex;
-  flex-direction: row;
 }
