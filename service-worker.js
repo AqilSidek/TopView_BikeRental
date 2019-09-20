@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TopView-Bike-Rental/precache-manifest.e055a886d0bea52e0fed3dd99d8b2ae2.js"
+  "/TopView-Bike-Rental/precache-manifest.31f76343fdd8008b6a459b252ebbbc89.js"
 );
 
 self.addEventListener('message', (event) => {
