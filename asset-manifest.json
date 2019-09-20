@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TopView-Bike-Rental/static/css/main.4fe13dd8.chunk.css",
-    "main.js": "/TopView-Bike-Rental/static/js/main.8fa6cf6f.chunk.js",
-    "main.js.map": "/TopView-Bike-Rental/static/js/main.8fa6cf6f.chunk.js.map",
+    "main.css": "/TopView-Bike-Rental/static/css/main.8eb9c315.chunk.css",
+    "main.js": "/TopView-Bike-Rental/static/js/main.73bee9c6.chunk.js",
+    "main.js.map": "/TopView-Bike-Rental/static/js/main.73bee9c6.chunk.js.map",
     "runtime~main.js": "/TopView-Bike-Rental/static/js/runtime~main.3236b2cf.js",
     "runtime~main.js.map": "/TopView-Bike-Rental/static/js/runtime~main.3236b2cf.js.map",
     "static/js/2.678ec769.chunk.js": "/TopView-Bike-Rental/static/js/2.678ec769.chunk.js",
     "static/js/2.678ec769.chunk.js.map": "/TopView-Bike-Rental/static/js/2.678ec769.chunk.js.map",
     "index.html": "/TopView-Bike-Rental/index.html",
-    "precache-manifest.31f76343fdd8008b6a459b252ebbbc89.js": "/TopView-Bike-Rental/precache-manifest.31f76343fdd8008b6a459b252ebbbc89.js",
+    "precache-manifest.73e2e2f7c13c6f508f9a08505c348a4c.js": "/TopView-Bike-Rental/precache-manifest.73e2e2f7c13c6f508f9a08505c348a4c.js",
     "service-worker.js": "/TopView-Bike-Rental/service-worker.js",
-    "static/css/main.4fe13dd8.chunk.css.map": "/TopView-Bike-Rental/static/css/main.4fe13dd8.chunk.css.map",
+    "static/css/main.8eb9c315.chunk.css.map": "/TopView-Bike-Rental/static/css/main.8eb9c315.chunk.css.map",
     "static/media/App.css": "/TopView-Bike-Rental/static/media/mike-c-valdivia-kZokA2VTKn4-unsplash.08183632.jpg"
   }
 }
