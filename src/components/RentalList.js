@@ -44,18 +44,24 @@ class RentalList extends Component {
   }
 
   render() {
+
+    var totalPrice = this.state.selected.reduce(function(prev, cur) {
+      return prev + cur.price;
+    }, 0);
+
     return (
       <div>
+        <h1 className="section-header">Items</h1>
         <div className="card">
           {/* displaying and selecting available rental items */}
           {RentalData["products"].map((rentalDetail, index) => {
             return (
               <div className="card-item">
-                <h1 className="item">Item: {rentalDetail.name}</h1>
-                <h3 className="price">Price: {rentalDetail.price}</h3>
+                <h2 className="item">{rentalDetail.name}</h2>
+                <h3 className="price">${rentalDetail.price}</h3>
                 <div className="buttons">
                   <div>
-                    <button
+                    <button className="add-remove"
                       onClick={() =>
                         this.handleSelected(
                           rentalDetail.name,
@@ -67,7 +73,7 @@ class RentalList extends Component {
                     </button>
                   </div>
                   <div>
-                    <button
+                    <button className="add-remove"
                       onClick={() =>
                         this.handleDeselect(
                           rentalDetail.name,
@@ -85,12 +91,32 @@ class RentalList extends Component {
         </div>
 
         {/* checkout section */}
-        <div className="cart">
-          <div className="checkout-button">
-            <button onClick={() => this.handleCheckout()}></button>
+        <div>
+          <h1 className="section-header">Cart</h1>
+          <div className="cart">
+            <div>
+              {this.state.selected.map((cartItem, index) => {
+                return (
+                  <div className="cart-items">
+                    <div>
+                      <p>{cartItem.name}</p>
+                    </div>
+                    <div>
+                      <p>${cartItem.price}</p>
+                    </div>
+                  </div>
+                );
+              })}
+
+
+              
+            </div>
+            <h3 className="price">Total price: ${totalPrice}</h3>
+            <div className="checkout-button">
+              <button className="checkout" onClick={() => this.handleCheckout()}>Checkout</button>
+            </div>
           </div>
         </div>
-
       </div>
     );
   }
