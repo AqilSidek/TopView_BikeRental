@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "aqilsidek.github.io/TopView-Bike-Rental/static/css/main.6e0f08c4.chunk.css",
-    "main.js": "aqilsidek.github.io/TopView-Bike-Rental/static/js/main.ca20371c.chunk.js",
-    "main.js.map": "aqilsidek.github.io/TopView-Bike-Rental/static/js/main.ca20371c.chunk.js.map",
-    "runtime~main.js": "aqilsidek.github.io/TopView-Bike-Rental/static/js/runtime~main.9425b7e1.js",
-    "runtime~main.js.map": "aqilsidek.github.io/TopView-Bike-Rental/static/js/runtime~main.9425b7e1.js.map",
-    "static/js/2.678ec769.chunk.js": "aqilsidek.github.io/TopView-Bike-Rental/static/js/2.678ec769.chunk.js",
-    "static/js/2.678ec769.chunk.js.map": "aqilsidek.github.io/TopView-Bike-Rental/static/js/2.678ec769.chunk.js.map",
-    "index.html": "aqilsidek.github.io/TopView-Bike-Rental/index.html",
-    "precache-manifest.f8cad8c345cf2172dcf74c81e643f41b.js": "aqilsidek.github.io/TopView-Bike-Rental/precache-manifest.f8cad8c345cf2172dcf74c81e643f41b.js",
-    "service-worker.js": "aqilsidek.github.io/TopView-Bike-Rental/service-worker.js",
-    "static/css/main.6e0f08c4.chunk.css.map": "aqilsidek.github.io/TopView-Bike-Rental/static/css/main.6e0f08c4.chunk.css.map",
-    "static/media/App.css": "aqilsidek.github.io/TopView-Bike-Rental/static/media/mike-c-valdivia-kZokA2VTKn4-unsplash.08183632.jpg"
+    "main.css": "/TopView-Bike-Rental/static/css/main.b3b5b7e7.chunk.css",
+    "main.js": "/TopView-Bike-Rental/static/js/main.8fa6cf6f.chunk.js",
+    "main.js.map": "/TopView-Bike-Rental/static/js/main.8fa6cf6f.chunk.js.map",
+    "runtime~main.js": "/TopView-Bike-Rental/static/js/runtime~main.3236b2cf.js",
+    "runtime~main.js.map": "/TopView-Bike-Rental/static/js/runtime~main.3236b2cf.js.map",
+    "static/js/2.678ec769.chunk.js": "/TopView-Bike-Rental/static/js/2.678ec769.chunk.js",
+    "static/js/2.678ec769.chunk.js.map": "/TopView-Bike-Rental/static/js/2.678ec769.chunk.js.map",
+    "index.html": "/TopView-Bike-Rental/index.html",
+    "precache-manifest.e055a886d0bea52e0fed3dd99d8b2ae2.js": "/TopView-Bike-Rental/precache-manifest.e055a886d0bea52e0fed3dd99d8b2ae2.js",
+    "service-worker.js": "/TopView-Bike-Rental/service-worker.js",
+    "static/css/main.b3b5b7e7.chunk.css.map": "/TopView-Bike-Rental/static/css/main.b3b5b7e7.chunk.css.map",
+    "static/media/App.css": "/TopView-Bike-Rental/static/media/mike-c-valdivia-kZokA2VTKn4-unsplash.08183632.jpg"
   }
 }
