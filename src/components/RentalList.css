@@ -19,16 +19,18 @@
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 2vh;
-    width: 20vw;
+    width: 30vw;
     justify-content: space-evenly;
     align-content: space-around;
     border-top: 5px solid rgba(39, 44, 108);
 }
 
 .add-remove {
+    flex-wrap: wrap;
     margin-top: 2vh;
     border: none;
     margin-left: 0.5vw;
+    margin-right: 0.5vw;
     font-size: 15px;
 }
 
@@ -63,7 +65,7 @@
     justify-content: space-between;
 }
 
-.price {
+.total-price {
     margin-bottom: -1vh;
     margin-top: 2vh;
 }

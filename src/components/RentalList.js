@@ -49,6 +49,8 @@ class RentalList extends Component {
       return prev + cur.price;
     }, 0);
 
+    var displayPrice = parseFloat(totalPrice).toFixed(2);
+
     return (
       <div>
         <h1 className="section-header">Items</h1>
@@ -58,7 +60,7 @@ class RentalList extends Component {
             return (
               <div className="card-item">
                 <h2 className="item">{rentalDetail.name}</h2>
-                <h3 className="price">${rentalDetail.price}</h3>
+                <h3 className="price">${parseFloat(rentalDetail.price).toFixed(2)}</h3>
                 <div className="buttons">
                   <div>
                     <button className="add-remove"
@@ -111,7 +113,7 @@ class RentalList extends Component {
 
               
             </div>
-            <h3 className="price">Total price: ${totalPrice}</h3>
+            <h3 className="total-price">Total price: ${displayPrice}</h3>
             <div className="checkout-button">
               <button className="checkout" onClick={() => this.handleCheckout()}>Checkout</button>
             </div>
