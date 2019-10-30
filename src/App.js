@@ -1,36 +1,55 @@
-import React from 'react';
+// libaries
+import React from 'react'
+import LazyLoad from 'react-lazy-load'
+import Fade from 'react-reveal'
 
-// importing CSS
-import './App.css';
-import './components/Navbar.css';
+// CSS
+import './App.css'
+import './components/Navbar.css'
+import './components/recommendations/Recommendations.css'
 
-//importing components
-import Navbar from './components/Navbar.js';
-import RentalList from './components/RentalList.js';
+// components
+import Navbar from './components/Navbar.js'
+import BrooklynBridge from './components/recommendations/BrooklynBridge.js'
+import WashingtonSquarePark from './components/recommendations/WashingtonSquarePark.js'
+import TimesSquare from './components/recommendations/TimesSquare.js'
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <Navbar />
+function App() {
+  return (
+    <div className="App">
+      <LazyLoad>
+        <Fade down>
+          <div><Navbar /></div>
+        </Fade>
+      </LazyLoad>
 
-        <div className="landing-page">
-          <div className="headertext">
-            <h1>
-              Explore
-              <br />
-              the Big Apple by bike!
-            </h1>
+      <LazyLoad>
+        <Fade>
+          {/* landing page */}
+          <div className='landing-page'>
+            {/* landing page text */}
+            <Fade left>
+              <div className="headertext">
+                <h1>
+                  Explore<br />
+                  the Big Apple<br />
+                  by bike!
+                </h1>
+              </div>
+            </Fade>
           </div>
-        </div>
 
-        <div>
-          <RentalList />
-        </div>
-      </div>
-    );
-  }
+          <h2 className='rec-hdr'>Our favorites in New York</h2>
+          <div className='recommendation-wrapper'>
+            <div><BrooklynBridge /></div>
+            <div><WashingtonSquarePark /></div>
+            <div><TimesSquare /></div>
+          </div>
+          
+          </Fade>
+          </LazyLoad>
+    </div>
+  );
 }
 
-// Acknowledgements:
-// Photo by Mike C. Valdivia on Unsplash (https://unsplash.com/photos/kZokA2VTKn4)
+export default App;

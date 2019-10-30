@@ -1,11 +1,37 @@
 /** font **/
+
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Playfair+Display&display=swap');
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+}
+
+h3 {
+  font-family: 'Homemade Apple', cursive;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+.rec-hdr {
+  color: white;
+  background: rgb(39,44,108);
+  height: 20vh;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: -5vh;
+  margin-top: -0.1vh;
+  padding-top: 8vh;
+}
 .headertext {
   display: flex;
   color: white;
   padding-left: 5vw;
-  margin-top: -4vh;
   font-size: 50px;
   margin-right: 40vw;
+  line-height: 1.75;
 }
 
 /** landing page styling **/
@@ -24,8 +50,9 @@
 .landing-page {
   display: flex;
   width: 100vw;
-  height: 85vh;
+  height: 80vh;
   background-image: url(./media/mike-c-valdivia-kZokA2VTKn4-unsplash.jpg);
   background-size: cover;
   border-top: 5px solid red;
+  border-bottom: 5px solid red;
 }

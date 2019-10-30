@@ -1,0 +1,95 @@
+.recommendation-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 218vh;
+    background:rgb(39,44,108);
+}
+.location-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hdr-txt-1 {
+    margin-top: -6.35vh;
+    margin-left: -2vw;
+    font-size: 35px;
+    line-height: 1;
+    color: white;
+}
+
+.hdr-txt-2 {
+    margin-top: -2vh;
+    margin-left: -2vw;
+    font-size: 35px;
+    line-height: 1;
+    color: white;
+}
+
+.body-txt {
+    margin-top: 30.5vh;
+    margin-left: 6vw;
+    font-size: 18px;
+    color: white;
+    width: 25vw;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.disclaimer {
+    color: white;
+    font-size: 14px;
+    width: 27vw;
+    margin-left: 3vw;
+}
+
+.link {
+    text-decoration: underline;
+    color: white;
+}
+
+.recommendation-img {
+    margin-left: 25vw;
+    margin-top: -15vh;
+    position: absolute;
+}
+
+.location-1 {
+    margin-top: 20vh;
+    width: 30vw;
+    height: 150vh;
+    margin-left: 5vw;
+    font-size: 40px;
+    background-image: url('../../media/BrooklynBridge.gif');
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-position: 0 30;
+    background-size: 33vw;
+}
+
+.location-2 {
+    margin-top: 85vh;
+    width: 30vw;
+    height: 150vh;
+    /* margin-left: 8vw; */
+    font-size: 40px;
+    background-image: url('../../media/WashingtonSquarePark.gif');
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-position: 0 30;
+    background-size: 33vw;
+}
+
+.location-3 {
+    margin-top: 153vh;
+    width: 30vw;
+    height: 150vh;
+    /* margin-left: 8vw; */
+    font-size: 40px;
+    background-image: url('../../media/TimesSquare.gif');
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-position: 0 30;
+    background-size: 33vw;
+}
